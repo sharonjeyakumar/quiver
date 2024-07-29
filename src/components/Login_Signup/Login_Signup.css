@@ -1,9 +1,12 @@
-.container {
-    background-color: rgba(255, 255, 255, 0.4); /* Semi-transparent background */
+*{
+    text-decoration: none;
+}
+.containerPage-Login_Signup {
+    background-color: rgba(255, 255, 255,0); /* Semi-transparent background */
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
-    margin: auto;
+    margin: 10px auto;
     justify-content: center;
     height: 100vh;
     border-radius: 10px;
@@ -21,7 +24,7 @@
 }
 
 .text{
-    color: #E64833;
+    color: #210535;
     font-size: 45px;
     font-weight: 700;
 }
@@ -30,7 +33,7 @@
     width: 61px;
     height: 6px;
     border-radius: 9px;
-    background: #E64833;
+    background: #210535;
 }
 
 .inputs{
@@ -46,9 +49,15 @@
     margin: auto;
     width: 380px;
     height: 50px;
-    background: #f4b1a8;
+    background: #7b337d;
     border-radius: 6px;
 }
+
+input::placeholder{
+    color:rgba(16, 6, 6, 0.463) ;
+}
+
+
 
 img{
     height: 30px;
@@ -63,7 +72,7 @@ img{
     border: none;
     outline: none;
     font-size: 19px;
-    color: #000000;
+    color: white;
 } 
 
 form{
@@ -80,7 +89,7 @@ form{
     align-items: center;
     padding: 10px;
     margin: 10px 0px;
-    color: #E64833;
+    color: #7b337d;
     font-weight: 500;
 }
 
@@ -98,7 +107,7 @@ form{
     width: 120px;
     height: 39px;
     color: #fff;
-    background: #E64833;
+    background:#7b337d;
     border-radius: 10px;
     font-size: 14px;
     font-weight: 700;
@@ -110,5 +119,21 @@ form{
 
 .gray{
     background: #fff;
-    color: #E64833;
+    color: #7b337d;
+}
+
+.Login-btn{
+    color: #7b337d;
+    background: #fff;
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: auto; 
+    transition: .2s;
+}
+
+.Login-btn:hover{
+    color: #ffffff;
+    background: #7b337d;
 }
